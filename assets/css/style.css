@@ -25,7 +25,7 @@ a:hover {
 }
 
 .icone {
-  background: url('../img/logos/circulo.ico') no-repeat;
+  background: url('../img/logos/Ampulheta.ico') no-repeat;
   width: 17px;
   height: 17px;
   padding: 5px;
@@ -350,10 +350,8 @@ h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 100%;
-  height: 150%;
-  overflow: hidden;
-  position: relative;
+  max-width: 100%;
+  height: 100vh;
   background: url("../img/banner.png") top center no-repeat;
   background-size: cover;
   position: relative;
@@ -540,8 +538,19 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+
+
 .about {
+  padding: 80px 0;
+  background: url("../img/logos/fundo2.png") fixed no-repeat center;
+  background-position: center;
+  background-size: cover;
   padding-top: 80px;
+}
+
+.about .content img {
+  max-width: 90%;
+  height: auto;
 }
 
 .about .content h3 {
@@ -672,10 +681,10 @@ section {
   margin-bottom: 10px;
 }
 
-.servicess .icon-box .icon i {
-  color: #47b2e4;
-  font-size: 36px;
-  transition: 0.3s;
+.servicess .icon-box .icon img {
+  width: 60px;
+  height: 60px;
+  padding: 5px;
 }
 
 .servicess .icon-box h4 {
@@ -685,7 +694,7 @@ section {
 }
 
 .servicess .icon-box h4 a {
-  color: #37517e;
+  color: #14264f;
   transition: ease-in-out 0.3s;
 }
 
@@ -751,77 +760,6 @@ section {
   top: 2px;
   font-size: 17px;
   line-height: 1;
-}
-
-
-/*--------------------------------------------------------------
-# Services
---------------------------------------------------------------*/
-.services .content ul {
-  list-style: none;
-  padding: 0;
-  margin-left: 40px;
-  line-height: 24px;
-}
-
-.services .content ul li {
-  padding-left: 28px;
-  position: relative;
-  font-size: 14px;
-}
-
-.services .content ul li+li {
-  margin-top: 10px;
-}
-
-.services .content ul i {
-  position: absolute;
-  left: 0;
-  top: 2px;
-  font-size: 17px;
-  line-height: 1;
-}
-
-.services .icon-box {
-  padding: 30px;
-  position: relative;
-  overflow: hidden;
-  border-radius: 12px;
-  background: #fff;
-  box-shadow: 0 2px 29px 0 rgba(68, 88, 144, 0.12);
-  transition: all 0.4s ease-in-out;
-  width: 100%;
-  height: 100%;
-}
-
-.services .icon-box:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 2px 35px 0 rgba(68, 88, 144, 0.2);
-}
-
-.services .title {
-  margin-left: 20px;
-  margin-right: 20px;
-  font-weight: 700;
-  margin-bottom: 15px;
-  font-size: 18px;
-}
-
-.services .title a {
-  color: #2a2c39;
-  transition: ease-in-out 0.3s;
-}
-
-.services .title a:hover {
-  color: #ef6603;
-}
-
-.services .description {
-  font-size: 14px;
-  margin-left: 20px;
-  margin-right: 20px;
-  line-height: 24px;
-  margin-bottom: 0;
 }
 
 /*--------------------------------------------------------------
@@ -970,6 +908,14 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contact {
+  padding: 80px 0;
+  background: url("../img/logos/fundo1.png") fixed no-repeat center;
+  background-position: center;
+  background-size: cover;
+}
+
+
 .contact .info {
   width: 100%;
 }
